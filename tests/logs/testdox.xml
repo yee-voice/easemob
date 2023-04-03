@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+  <test className="tests\UserTest" methodName="testUserLifeCycles" prettifiedClassName="User (tests\User)" prettifiedMethodName="User life cycles" status="0" time="0.945468773" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="tests\UserTest" methodName="testUserForceLogout" prettifiedClassName="User (tests\User)" prettifiedMethodName="User force logout" status="3" time="0.232178852" size="-1" groups="default" exceptionLine="27" exceptionMessage="Failed asserting that 0 is of type &quot;bool&quot;.">
+    <group name="default"/>
+  </test>
+  <test className="tests\UserTest" methodName="testUserUpdatePassword" prettifiedClassName="User (tests\User)" prettifiedMethodName="User update password" status="0" time="1.726543796" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="tests\UserTest" methodName="testUserListUsers" prettifiedClassName="User (tests\User)" prettifiedMethodName="User list users" status="0" time="0.768956463" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="tests\UserTest" methodName="testUserContactLifeCycles" prettifiedClassName="User (tests\User)" prettifiedMethodName="User contact life cycles" status="0" time="1.571047531" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="tests\UserTest" methodName="testUserGetUsersBlockedFromSendMsg" prettifiedClassName="User (tests\User)" prettifiedMethodName="User get users blocked from send msg" status="0" time="1.231210003" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="tests\UserTest" methodName="testUserBlockUserSendMsg" prettifiedClassName="User (tests\User)" prettifiedMethodName="User block user send msg" status="0" time="1.546252359" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="tests\UserTest" methodName="testUserUnblockUserSendMsg" prettifiedClassName="User (tests\User)" prettifiedMethodName="User unblock user send msg" status="0" time="2.030984724" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="tests\UserTest" methodName="testUserCountMissedMessages" prettifiedClassName="User (tests\User)" prettifiedMethodName="User count missed messages" status="0" time="0.991811143" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="tests\UserTest" methodName="testUserBlockLogin" prettifiedClassName="User (tests\User)" prettifiedMethodName="User block login" status="0" time="1.33595969" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="tests\UserTest" methodName="testUserOnlineStatus" prettifiedClassName="User (tests\User)" prettifiedMethodName="User online status" status="0" time="0.695628743" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="tests\UserTest" methodName="testUsersOnlineStatus" prettifiedClassName="User (tests\User)" prettifiedMethodName="Users online status" status="0" time="0.982005793" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="tests\UserTest" methodName="testGetUserToken" prettifiedClassName="User (tests\User)" prettifiedMethodName="Get user token" status="0" time="0.662822307" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+</tests>

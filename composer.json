@@ -1,0 +1,21 @@
+{
+    "name": "maniac/easemob-php",
+    "description": "PHP Server SDK for IM.",
+    "license": "MIT",
+    "authors": [{
+        "name": "maniac",
+        "email": "maniac.liu@easemob.com"
+    }],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "files": [
+            "src/functions.php"
+        ],
+        "psr-4": {
+            "Easemob\\": "src/",
+            "tests\\": "tests/"
+        }
+    }
+}

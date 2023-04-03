@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="tests\UserTest" file="/Users/maniac/docker/nginx/www/sdk.com/tests/UserTest.php" tests="13" assertions="84" errors="0" warnings="0" failures="1" skipped="0" time="14.720870">
+    <testcase name="testUserLifeCycles" class="tests\UserTest" classname="tests.UserTest" file="/Users/maniac/docker/nginx/www/sdk.com/tests/UserTest.php" line="11" assertions="4" time="0.945469"/>
+    <testcase name="testUserForceLogout" class="tests\UserTest" classname="tests.UserTest" file="/Users/maniac/docker/nginx/www/sdk.com/tests/UserTest.php" line="22" assertions="2" time="0.232179">
+      <failure type="PHPUnit\Framework\ExpectationFailedException">tests\UserTest::testUserForceLogout
+Failed asserting that 0 is of type "bool".
+
+/Users/maniac/docker/nginx/www/sdk.com/tests/UserTest.php:27</failure>
+    </testcase>
+    <testcase name="testUserUpdatePassword" class="tests\UserTest" classname="tests.UserTest" file="/Users/maniac/docker/nginx/www/sdk.com/tests/UserTest.php" line="31" assertions="3" time="1.726544"/>
+    <testcase name="testUserListUsers" class="tests\UserTest" classname="tests.UserTest" file="/Users/maniac/docker/nginx/www/sdk.com/tests/UserTest.php" line="40" assertions="5" time="0.768956"/>
+    <testcase name="testUserContactLifeCycles" class="tests\UserTest" classname="tests.UserTest" file="/Users/maniac/docker/nginx/www/sdk.com/tests/UserTest.php" line="52" assertions="10" time="1.571048"/>
+    <testcase name="testUserGetUsersBlockedFromSendMsg" class="tests\UserTest" classname="tests.UserTest" file="/Users/maniac/docker/nginx/www/sdk.com/tests/UserTest.php" line="79" assertions="7" time="1.231210"/>
+    <testcase name="testUserBlockUserSendMsg" class="tests\UserTest" classname="tests.UserTest" file="/Users/maniac/docker/nginx/www/sdk.com/tests/UserTest.php" line="99" assertions="14" time="1.546252"/>
+    <testcase name="testUserUnblockUserSendMsg" class="tests\UserTest" classname="tests.UserTest" file="/Users/maniac/docker/nginx/www/sdk.com/tests/UserTest.php" line="131" assertions="17" time="2.030985"/>
+    <testcase name="testUserCountMissedMessages" class="tests\UserTest" classname="tests.UserTest" file="/Users/maniac/docker/nginx/www/sdk.com/tests/UserTest.php" line="169" assertions="6" time="0.991811"/>
+    <testcase name="testUserBlockLogin" class="tests\UserTest" classname="tests.UserTest" file="/Users/maniac/docker/nginx/www/sdk.com/tests/UserTest.php" line="188" assertions="6" time="1.335960"/>
+    <testcase name="testUserOnlineStatus" class="tests\UserTest" classname="tests.UserTest" file="/Users/maniac/docker/nginx/www/sdk.com/tests/UserTest.php" line="205" assertions="3" time="0.695629"/>
+    <testcase name="testUsersOnlineStatus" class="tests\UserTest" classname="tests.UserTest" file="/Users/maniac/docker/nginx/www/sdk.com/tests/UserTest.php" line="217" assertions="4" time="0.982006"/>
+    <testcase name="testGetUserToken" class="tests\UserTest" classname="tests.UserTest" file="/Users/maniac/docker/nginx/www/sdk.com/tests/UserTest.php" line="232" assertions="3" time="0.662822"/>
+  </testsuite>
+</testsuites>

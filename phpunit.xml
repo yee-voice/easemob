@@ -1,0 +1,12 @@
+<phpunit bootstrap="./tests/bootstrap.php">
+  <testsuites>
+    <testsuite name="money">
+      <directory>tests</directory>
+    </testsuite>
+  </testsuites>
+  <logging>
+    <junit outputFile="tests/logs/junit.xml"/>
+    <testdoxHtml outputFile="tests/logs/testdox.html"/>
+    <testdoxXml outputFile="tests/logs/testdox.xml"/>
+  </logging>
+</phpunit>
